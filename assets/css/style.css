@@ -23,6 +23,7 @@ h1, h2 {
     float: left;
     font-size: 180%;
     margin-left: 30px;
+    /* border: 1px solid #3a3a3a; */
 }
 /* navication links */
 #menu {
@@ -96,19 +97,22 @@ h1, h2 {
     right: 150px;
     position: absolute;
 }
-#method {
-    padding-top: 20px;
-    background-color: aqua;
-
+.method {
+    display: flex;
 }
-#image-align {
+.method > * {
+    flex-basis: 100%;
+}
+.image-style {
     background-color: darkseagreen;
     padding-top: 30px;
     width: 400px;
 }
-#text-align {
+.text-style {
     background-color: darkseagreen;
     padding-top: 30px;
+    padding-left: 30px;
+    border: 3px solid red;
     width: 50%;
 
 }
