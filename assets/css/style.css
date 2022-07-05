@@ -96,3 +96,19 @@ h1, h2 {
     right: 150px;
     position: absolute;
 }
+#method {
+    padding-top: 20px;
+    background-color: aqua;
+
+}
+#image-align {
+    background-color: darkseagreen;
+    padding-top: 30px;
+    width: 400px;
+}
+#text-align {
+    background-color: darkseagreen;
+    padding-top: 30px;
+    width: 50%;
+
+}
