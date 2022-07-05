@@ -99,6 +99,8 @@ h1, h2 {
 }
 .method {
     display: flex;
+
+    flex-direction: column;
 }
 .method > * {
     flex-basis: 100%;
@@ -106,7 +108,7 @@ h1, h2 {
 .image-style {
     background-color: darkseagreen;
     padding-top: 30px;
-    width: 400px;
+    /* width: 400px; */
 }
 .text-style {
     background-color: darkseagreen;
