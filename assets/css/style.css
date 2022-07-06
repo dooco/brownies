@@ -97,6 +97,41 @@ h1, h2 {
     right: 150px;
     position: absolute;
 }
+#method {
+    height: 1800px;
+    padding: 50px;
+}
+#ingredients {
+   
+}
+#ingredients-list li {
+    list-style-type: none;
+}
+
+.move-left {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+.move-right {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+hr {
+    border-bottom: 1px solid #252525;
+    width: 100%;
+    margin: 10px 10px;
+    clear: both;
+}
+
+footer {
+    height: 150px;
+}
+
+
+
+/* 
 .method {
     display: flex;
 
@@ -108,7 +143,7 @@ h1, h2 {
 .image-style {
     background-color: darkseagreen;
     padding-top: 30px;
-    /* width: 400px; */
+    width: 400px;
 }
 .text-style {
     background-color: darkseagreen;
@@ -117,4 +152,4 @@ h1, h2 {
     border: 3px solid red;
     width: 50%;
 
-}
+} */
