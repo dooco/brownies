@@ -83,14 +83,14 @@ h1, h2 {
     }
 }
 #cover-text {
-    font-size: 130%;
+    font-size: 180%;
     font-family: Bubblegum, sans-serif;
     text-transform: none;
     letter-spacing: 4px;
 
     width: 350px;
     height: 200px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
     background: rgba(48, 2, 90, 0.6);
     bottom: 30px;
@@ -98,11 +98,14 @@ h1, h2 {
     position: absolute;
 }
 #method {
-    height: 1800px;
+    min-height: fit-content;
     padding: 50px;
 }
-#ingredients {
-   
+
+#welcome {
+   text-align: center;
+   margin: 20px;
+   font-size: 180%;
 }
 #ingredients-list li {
     list-style-type: none;
