@@ -107,8 +107,16 @@ h1, h2 {
    margin: 20px;
    font-size: 180%;
 }
-#ingredients-list li {
+.ingredients-list li {
     list-style-type: none;
+
+}
+.ingredients-list {
+    /* height: 150px; */
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: peru;
+
 }
 
 .move-left {
