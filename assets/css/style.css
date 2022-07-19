@@ -113,20 +113,27 @@ border: 2px solid purple;
 #ingredients_list li {
     list-style-type: none;
 }
+.container{
+    /* border: 1px solid indianred; */
+}
 .row {
     display: flex;
-    gap: 50px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    /* border: 1px solid slateblue; */
+    /* gap: 50px; */
 }
 .col {
     width: 100%;
     background-color: lightgreen;
+    border: 1px solid black;
 }
 
 hr {
     border-bottom: 1px solid #252525;
-    width: 100%;
+    /* width: 100%;
     margin: 10px 10px;
-    clear: both;
+    clear: both; */
 }
 
 footer {
@@ -207,4 +214,9 @@ footer {
 }
 #photos > img {
     width: 100%;
+}
+@media (min-width: 600px) {
+   .row {
+    display: flex;
+    flex-direction: row;}
 }
