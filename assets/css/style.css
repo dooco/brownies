@@ -107,26 +107,34 @@ h1, h2 {
 }
 .intro__text {
 width: 100%;
-border: 2px solid purple;
+padding: 2em 0;
 }
 
 #ingredients_list li {
     list-style-type: none;
 }
-.container{
-    /* border: 1px solid indianred; */
+.card {
+    background-color: #222c2a;
+    color: #f3eed9;
 }
+.card_flip {
+    background-color: #824936;
+    color: #f3eed9;
+} 
 .row {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     justify-content: space-between;
-    /* border: 1px solid slateblue; */
-    /* gap: 50px; */
+    background-color: #824936;
+    color: #f3eed9;
+}
+.row h1 {
+    color: #f3eed9;
 }
 .col {
     width: 100%;
-    background-color: lightgreen;
-    border: 1px solid black;
+    /* background-color: lightgreen;
+    border: 1px solid black; */
 }
 
 hr {
@@ -215,8 +223,8 @@ footer {
 #photos > img {
     width: 100%;
 }
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
    .row {
     display: flex;
     flex-direction: row;}
-}
+} */
