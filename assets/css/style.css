@@ -5,6 +5,9 @@
     padding: 0;
     border: none;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Nunito Sans', sans-serif;
@@ -97,38 +100,28 @@ h1, h2 {
     right: 150px;
     position: absolute;
 }
-#method {
-    min-height: fit-content;
-    padding: 50px;
-}
-
-#welcome {
-   text-align: center;
-   margin: 20px;
-   font-size: 180%;
-}
-.ingredients-list li {
-    list-style-type: none;
-
-}
-.ingredients-list {
-    /* height: 150px; */
-    max-width: 50%;
+.container {
+    width: 80%;
+    max-width: 900px;
     margin: 0 auto;
-    background-color: peru;
-
+}
+.intro__text {
+width: 100%;
+border: 2px solid purple;
 }
 
-.move-left {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
+#ingredients_list li {
+    list-style-type: none;
 }
-.move-right {
-    padding-top: 30px;
-    width: 50%;
-    float: right;
+.row {
+    display: flex;
+    gap: 50px;
 }
+.col {
+    width: 100%;
+    background-color: lightgreen;
+}
+
 hr {
     border-bottom: 1px solid #252525;
     width: 100%;
