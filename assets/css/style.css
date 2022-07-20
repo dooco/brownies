@@ -22,25 +22,33 @@ img {
 h1, h2 {
     font-family: Bubblegum, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #252525;
 }
 #logo {
     float: left;
     font-size: 1.6em;
-    margin-left: 30px;
-    /* border: 1px solid #3a3a3a; */
+    margin-left: 20px;
+    margin-right: 1em;
 }
 /* navication links */
+/* .nav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center; 
+}  */
+
 #menu {
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 1rem;
-    font-size: 100%;
-    letter-spacing: 4px;
+    gap: .5rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    border: 1px solid blue;
 }
 #menu, #logo {
     line-height: 75px;
@@ -48,7 +56,9 @@ h1, h2 {
 #menu li {
     flex-shrink: 1;
     list-style-type: none;
-    margin-right: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 1px solid red;
 
 }
 #menu a {
@@ -157,7 +167,7 @@ footer {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #f3eed9;
 
 }
 .form-section {
@@ -217,8 +227,8 @@ footer {
 #photos > img {
     width: 100%;
 }
-@media (max-width: 600px) {
-   .row {
+@media (max-width: 690px) {
+   #menu, .row {
     display: block;
 
     }
