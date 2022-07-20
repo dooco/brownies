@@ -64,7 +64,7 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2 {
-    color: #fff;
+    color: #f3eed9;
 }
 #hero-image {
     height: 600px;
@@ -86,12 +86,12 @@ h1, h2 {
     }
 }
 #cover-text {
-    font-size: 180%;
+    font-size: 1.5em;
     font-family: Bubblegum, sans-serif;
     text-transform: none;
     letter-spacing: 4px;
 
-    width: 350px;
+    width: 370px;
     height: 200px;
     padding-top: 30px;
     padding-left: 10px;
@@ -102,7 +102,7 @@ h1, h2 {
 }
 .container {
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .intro__text {
@@ -133,12 +133,13 @@ padding: 2em 0;
 }
 .col {
     width: 100%;
+    padding-top: 2em;
     /* background-color: lightgreen;
     border: 1px solid black; */
 }
 
 hr {
-    border-bottom: 1px solid #252525;
+    border-bottom: 1px solid #f3eed9;
     /* width: 100%;
     margin: 10px 10px;
     clear: both; */
@@ -148,7 +149,7 @@ footer {
     height: 150px;
     max-width: 80%;
     margin: 0 auto;
-    background-color: peru;
+    background-color: #222c2a;
    
 }
 .social-networks {
@@ -223,8 +224,10 @@ footer {
 #photos > img {
     width: 100%;
 }
-/* @media (min-width: 600px) {
+@media (max-width: 600px) {
    .row {
-    display: flex;
-    flex-direction: row;}
-} */
+    display: block;
+
+    }
+    .hero
+}
