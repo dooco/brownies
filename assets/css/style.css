@@ -125,7 +125,10 @@ h1, h2 {
 width: 100%;
 padding: 2em 0;
 }
-
+.intro__text p {
+    font-size: 1.5rem;
+    
+}
 #ingredients_list li {
     list-style-type: none;
 }
