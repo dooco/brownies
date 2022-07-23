@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+ */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1.3125rem;
+    line-height: 1.6rem;
+    color: #222c2a;
 }
 img {
     max-width: 100%;
@@ -20,15 +21,18 @@ img {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Bubblegum, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    /* letter-spacing: 2px; */
+    line-height: 1.1rem;
+}
+section {
+    padding: 4em 0;
 }
 #logo {
     float: left;
     font-size: 1.6em;
-    margin-left: 20px;
+    margin-left: 1.25em;
     margin-right: 1em;
 }
 /* navication links */
@@ -117,31 +121,40 @@ h1, h2 {
     position: absolute;
 }
 .container {
-    width: 80%;
+    width: 85%;
     max-width: 1100px;
     margin: 0 auto;
 }
-.intro__text {
-width: 100%;
-padding: 2em 0;
+.section-title {
+    font-size: 2.25rem;
+    color: #f3eed9;
 }
-.intro__text p {
-    font-size: 1.5rem;
-    
+.section-title-dark {
+    color: #824936;
 }
-#ingredients_list li {
+.intro {
+    background-color: #f3eed9;
+    color: #824936;
+    max-height: 660;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+}
+.intro__title {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+.ingredients {
+    background-color: #9d3e3e;
+}
+
+.ingredients li {
     list-style-type: none;
 }
- 
+
 .row {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color:#f3eed9;
-    color: #824936;
-}
-.row h1 {
-    color: #824936;
 }
 .col {
     width: 100%;
