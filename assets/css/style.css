@@ -11,9 +11,10 @@ font-family: 'Roboto', sans-serif;
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 1.3125rem;
+    font-size: 1rem;
     line-height: 1.6rem;
     color: #222c2a;
+    margin: 0;
 }
 img {
     max-width: 100%;
@@ -25,6 +26,10 @@ h1, h2 {
     font-weight: 900;
     /* letter-spacing: 2px; */
     line-height: 1.1rem;
+}
+header {
+    background-color: #f3eed9;
+    color: #824936;
 }
 
 #logo {
@@ -50,7 +55,7 @@ h1, h2 {
     gap: .5rem;
     font-size: 1rem;
     letter-spacing: 2px;
-    border: 1px solid blue;
+    
 }
 #menu, #logo {
     line-height: 75px;
@@ -181,7 +186,7 @@ hr {
 
 footer {
     height: 150px;
-    max-width: 80%;
+    max-width: 95%;
     margin: 0 auto;
     background-color: #222c2a;
    
