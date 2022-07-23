@@ -26,9 +26,7 @@ h1, h2 {
     /* letter-spacing: 2px; */
     line-height: 1.1rem;
 }
-section {
-    padding: 4em 0;
-}
+
 #logo {
     float: left;
     font-size: 1.6em;
@@ -62,7 +60,7 @@ section {
     list-style-type: none;
     margin-left: 1em;
     margin-right: 1em;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 #menu a {
@@ -105,9 +103,13 @@ section {
         transform: scale(1.1);
     }
 }
+section {
+    padding: 4em 0;
+}
+
 #cover-text {
     font-size: 1.5em;
-    font-family: Bubblegum, sans-serif;
+    font-family: 'Playfair Display', serif;
     text-transform: none;
     letter-spacing: 4px;
 
@@ -129,9 +131,7 @@ section {
     font-size: 2.25rem;
     color: #f3eed9;
 }
-.section-title-dark {
-    color: #824936;
-}
+
 .intro {
     background-color: #f3eed9;
     color: #824936;
@@ -147,19 +147,33 @@ section {
 }
 .ingredients {
     background-color: #9d3e3e;
+    color: #f3eed9;
 }
 
 .ingredients li {
     list-style-type: none;
 }
+.preparation {
+    background-color: #222c2a;
+    color: #f3eed9;
+}
+.dry-ingredients {
+    background-color: #9d3e3e;
+    color: #f3eed9;
+}
+.dry-wet-combined {
+    background-color: #222c2a;
+    color: #f3eed9;
+}
+.mixture-tray {
+    background-color: #9d3e3e;
+    color: #f3eed9;
+}
+.tray-in-oven {
+    background-color: #222c2a;
+    color: #f3eed9;
+}
 
-.row {
-    display: flex;
-}
-.col {
-    width: 100%;
-    padding-top: 2em;
-}
 
 hr {
     border-bottom: 1px solid #3a3a3a;
@@ -243,10 +257,16 @@ footer {
 #photos > img {
     width: 100%;
 }
-@media (max-width: 690px) {
-   #menu, .row {
-    display: block;
-
+@media (min-width: 690px) {
+    .row {
+        display: flex;
+    }
+    .col {
+        width: 100%;
+        padding-top: 2em;
+    }
+    .col + .col {
+        margin-left: 5em;
     }
     
 }
