@@ -169,7 +169,7 @@ section {
 .intro {
     background-color: #f3eed9;
     color: #824936;
-    max-height: 660;
+    max-height: 660px;
     text-align: center;
 
     display: flex;
@@ -374,7 +374,7 @@ object-fit: cover;
     }
     .photos {
         flex-direction: row;
-        gap: 1;
+        gap: 1px;
     }
     .pic-gallery {
         flex-direction: row;
