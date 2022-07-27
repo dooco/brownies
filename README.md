@@ -4,7 +4,7 @@
 The purpose of this website is to demonstrate an aptitude for working in html and css with user centre design in place as personal portfolio project one assignment for the Code Institute’s Full Stack Developer course. 
 The website presents a simple step by step method for beginner baking enthusiasts to follow in their journey in learning how to bake. 
 
-The live website can be found [HERE] (https://dooco.github.io/brownies/)
+The live website can be found [HERE](https://dooco.github.io/brownies/)
 
 
 ## User Experience 
