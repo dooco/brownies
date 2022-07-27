@@ -3,7 +3,7 @@
 ## Let’s Make Brownies
 The purpose of this website is to demonstrate an aptitude for working in html and css with user centre design in place as personal portfolio project one assignment for the Code Institute’s Full Stack Developer course. 
 The website presents a simple step by step method for beginner baking enthusiasts to follow in their journey in learning how to bake. 
-
+![Responsive screenshot](./assets/readme/am-i-responsive-lets-make-brownies.jpg)
 The live website can be found [HERE](https://dooco.github.io/brownies/)
 
 
@@ -72,5 +72,5 @@ Internal links were tested to ensure that they navigated to the appropriate posi
 All Pages were run through the W3C HTML Validator and showed no errors.
 CSS Stylesheet was run through the W3C CSS Validator and showed no errors.
 # Lighthouse 
-![lighthouse screenshot](https://github.com/dooco/brownies/assets/images/lighthouse-screenshot)
+![lighthouse screenshot](./assets/readme/lighthouse-screenshot.jpg)
 
