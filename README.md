@@ -1,15 +1,15 @@
 
 
 ## Let’s Make Brownies
-The purpose of this website is to demonstrate an aptitude for working in html and css with user centre design in place as personal portfolio project one assignment for the Code Institute’s Full Stack Developer course. 
+The website is a personal portfolio project one assignment for the Code Institute’s Full Stack Developer course. It's purpose is to demonstrate student's aptitude for working in html and css with user centre design in place. 
 The website presents a simple step by step method for beginner baking enthusiasts to follow in their journey in learning how to bake. 
 ![Responsive screenshot](./assets/readme/am-i-responsive-lets-make-brownies.jpg)
 The live website can be found [HERE](https://dooco.github.io/brownies/)
 
 
-## User Experience 
+### User Experience 
 
-### User stories 
+## User stories 
 
 1. As someone new to baking, I want to find clear simple steps about how to make brownies. It needs to be descriptive with images of what to be achieved at each stage of the process.
 2. As a returning visitor with some baking experience I want to have access to trusted method and ingredients list which will make it easy to navigate to the information I need to complete the baking project.
@@ -21,7 +21,7 @@ The live website can be found [HERE](https://dooco.github.io/brownies/)
 The header provides a holder for the site logo and navigation elements of the site. The navigation bar is found on the top of all pages for easy navigation to the different pages of the site. By being identical and in the same location on all pages it  makes it easy for the user to navigate through the various pages of the website. 
 
 # Hero image
-The hero image on the home page sets the atmosphere that the site is aiming to deliver, family engaged in the process of baking.
+The hero image on the home page sets the atmosphere that the site is aiming to deliver, family engaged in the process of baking. 
 
 # Sections
 An introduction section is followed by seven sections each section representing a significant step in the brownie making process. Accompanying an image of each step is a list or a description of the particular step. Each section heading has a Font Awesome icon depicting elements of the process.
