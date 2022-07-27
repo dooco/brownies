@@ -3,92 +3,71 @@
 ## Let’s Make Brownies
 The purpose of this website is to demonstrate an aptitude for working in html and css with user centre design in place as personal portfolio project one assignment for the Code Institute’s Full Stack Developer course. 
 The website presents a simple step by step method for beginner baking enthusiasts to follow in their journey in learning how to bake. 
-The live website can be found HERE.
+
+The live website can be found [HERE] (https://dooco.github.io/brownies/)
 
 
-###User Experience 
-##User stories 
+## User Experience 
+
+### User stories 
+
 1. As someone new to baking, I want to find clear simple steps about how to make brownies. It needs to be descriptive with images of what to be achieved at each stage of the process.
 2. As a returning visitor with some baking experience I want to have access to trusted method and ingredients list which will make it easy to navigate to the information I need to complete the baking project.
 3. As a regular visitor I want to be included in the newsletter for further updates on new baking recipes.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Structure
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Header and Navigation
+The header provides a holder for the site logo and navigation elements of the site. The navigation bar is found on the top of all pages for easy navigation to the different pages of the site. By being identical and in the same location on all pages it  makes it easy for the user to navigate through the various pages of the website. 
 
-------
+# Hero image
+The hero image on the home page sets the atmosphere that the site is aiming to deliver, family engaged in the process of baking.
 
-## Release History
+# Sections
+An introduction section is followed by seven sections each section representing a significant step in the brownie making process. Accompanying an image of each step is a list or a description of the particular step. Each section heading has a Font Awesome icon depicting elements of the process.
+ 
+# Footer
+The footer section provides links to the social media sites of Let’s Make Brownies and is located at the bottom on each page making it easy for user to find and the links open in a new tab providing easy navigation for the user.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Gallery page
+Pictures of various baking projects
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+# Sign up page
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+# Form for user to enter name and email address to request further information on baking projects.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Design
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+# Imagery
+The learning process is enhances where imagery is used to describe the various stages in a process and this is utilised in Let’s Make Brownies by introducing photos of the ingredients and the photos of the various stages in the brownie making process.
+  
+Photos of the different baking projects are presented in the gallery page to encourage interested bakers to develop their skills by trying more advanced baking projects.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+# Typography
+Two fonts are used throughout the site : Roboto, used for body of site and ‘Playfair Display’, used for headings one and two. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# Colour Scheme
+Three main colours are used throughout the site:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# Wireframes
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# Home page 
+# Gallery page
+# Sign up page
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Limitations 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing
+A process of continuous testing was carried out throughout the development of the website with display or functionality improvements made as they were warranted. Testing consisted of observing the site’s visible responses to different view screens and on different browsers.
+The site was viewed and tested on the Google Chrome, Firefox, Microsoft Edge, Internet Explorer and Safari browsers.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Google Chrome Developer tools and Firefox Developer edition were used to test site’s response to various screen sizes. Care was taken, during testing, to avoid overlapping of elements, loss of information due to scrolling off page and ensuring alignment of elements. 
+Media queries are incorporated to ensure the site displays properly at break points between different device screen sizes.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Internal links were tested to ensure that they navigated to the appropriate position / page on the site. External links were tested to ensure that a new page was opened whenever an external link was selected and that it was directed correctly.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+# Validator Test
+All Pages were run through the W3C HTML Validator and showed no errors.
+CSS Stylesheet was run through the W3C CSS Validator and showed no errors.
