@@ -1,30 +1,16 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome dooco,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Let’s Make Brownies
+The purpose of this website is to demonstrate an aptitude for working in html and css with user centre design in place as personal portfolio project one assignment for the Code Institute’s Full Stack Developer course. 
+The website presents a simple step by step method for beginner baking enthusiasts to follow in their journey in learning how to bake. 
+The live website can be found HERE.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
+###User Experience 
+##User stories 
+1. As someone new to baking, I want to find clear simple steps about how to make brownies. It needs to be descriptive with images of what to be achieved at each stage of the process.
+2. As a returning visitor with some baking experience I want to have access to trusted method and ingredients list which will make it easy to navigate to the information I need to complete the baking project.
+3. As a regular visitor I want to be included in the newsletter for further updates on new baking recipes.
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
 2. Scroll down to the *API Key* and click *Reveal*
