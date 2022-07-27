@@ -48,12 +48,15 @@ Two fonts are used throughout the site : Roboto, used for body of site and ‘Pl
 
 # Colour Scheme
 Three main colours are used throughout the site:
+![colour pallet](./assets/readme/three-colours.jpg)
 
 # Wireframes
 
 # Home page 
 # Gallery page
+![gallery wireframe](./assets/readme/Lets%20make%20brownies%20-%20gallery.png)
 # Sign up page
+![sign up wireframe](./assets/readme/lets%20make%20brownies%20-%20sign%20up.png)
 
 ## Limitations 
 
