@@ -71,3 +71,6 @@ Internal links were tested to ensure that they navigated to the appropriate posi
 # Validator Test
 All Pages were run through the W3C HTML Validator and showed no errors.
 CSS Stylesheet was run through the W3C CSS Validator and showed no errors.
+# Lighthouse 
+![lighthouse screenshot](https://github.com/dooco/brownies/assets/images/lighthouse-screenshot)
+
