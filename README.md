@@ -53,6 +53,7 @@ Three main colours are used throughout the site:
 # Wireframes
 
 # Home page 
+![Home page wireframe](./assets/readme/Lets%20Make%20Brownies%20-%20Home.png)
 # Gallery page
 ![gallery wireframe](./assets/readme/Lets%20make%20brownies%20-%20gallery.png)
 # Sign up page
