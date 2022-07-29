@@ -2,10 +2,11 @@
 
 # Let’s Make Brownies
 
-The website is a personal portfolio project one assignment for the Code Institute’s Full Stack Developer course. It's purpose is to demonstrate student's aptitude for working in html and css with user centre design in place. 
+This website forms part assignment for the Code Institute’s Full Stack Developer course - personal portfolio one. Using principles of user experience design, accessibility and responsivity this website was developed with html and css.
 The website presents a simple step by step method for beginner baking enthusiasts to follow in their journey in learning how to bake. 
 
 ![Responsive screenshot](./assets/readme/am-i-responsive-lets-make-brownies.jpg)
+
 The live website can be found [HERE](https://dooco.github.io/brownies/)
 
 
@@ -13,7 +14,8 @@ The live website can be found [HERE](https://dooco.github.io/brownies/)
 
 ## User stories 
 
-1. As someone new to baking, I want to find clear simple steps about how to make brownies. It needs to be descriptive with images of what to be achieved at each stage of the process.
+1.  As a New User I want to learn how to baking (brownies is a simple recipe to start with). I want to access other ideas for developing my interest in baking and other resources to complement my interest in baking.
+
 2. As a returning visitor with some baking experience I want to have access to trusted method and ingredients list which will make it easy to navigate to the information I need to complete the baking project.
 3. As a regular visitor I want to be included in the newsletter for further updates on new baking recipes.
 
@@ -57,7 +59,7 @@ Photos of the different baking projects are presented in the gallery page to enc
 Two fonts are used throughout the site : Roboto, used for body of site and ‘Playfair Display’, used for headings one and two. 
 
 # Colour Scheme
-Three main colours are used throughout the site:
+Research into colours that would look well with brownie pictures resulted in these three main colours which are used throughout the site. 
 ![colour pallet](./assets/readme/three-colours.jpg)
 
 # Wireframes
@@ -76,20 +78,32 @@ Three main colours are used throughout the site:
 # Languages
 - HTML5
     - HTML5 was used as the main language to complete the structure of the Website.
+
 - CSS
     - Custom written CSS is used to style the website and define the responsive elements of the site.
 
 # Tools
-- Visual Studio Code
+- [Visual Studio Code](https://code.visualstudio.com/)
     - VSCode was used as the preferred IDE.
-- Git
-    - Git was used for version control to commit to Git.
-- Github
+
+- [Git](https://git-scm.com/)
+    - Git was used for version control of project development.
+
+- [Github](https://github.com/)
     - GithHub repository is used store and manage code, as well as track and control changes to code on a cloud-based service. Git Pages is used for the deployment of the live site.
-- Font Awesome
+
+- [Font Awesome](https://fontawesome.com/)
     - Font awesome icons are used to add style to the headings of each of the sections on the home page and for the social media links contained in the footer section of the website.
-- Am I Responsive?
+
+- [Am I Responsive](https://ui.dev/amiresponsive)
     - Am I Responsive was used to generate mockup responsive imagery on various devices.
+
+- [my colors space](https://mycolor.space/) 
+    - My color space was used to identify three complementary colours that work well together on website.
+
+- [Balsamiq](https://balsamiq.com/)
+    - Balsamiq wireframe was used for wireframe layout design.
+
 
 # Libraries
 - Google Fonts 

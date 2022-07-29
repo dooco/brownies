@@ -215,6 +215,7 @@ footer {
 .signup-form h2 {
     color: #f3eed9;
     margin-bottom: 20px;
+    line-height: 1.2em;
 }
 .text-input {
     background: transparent;
