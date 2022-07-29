@@ -65,7 +65,7 @@ Pictures of various baking projects are presented in the gallery page offering i
 
 ## Sign up page
 
-The sign up page provides a form for users to sign up for an information pack and access to newslatter.
+The sign up page provides a form for users to sign up for an information pack and access to newsletter.
 
 ![SignUp page](./assets/readme/sign%20up.jpg)
 
@@ -73,42 +73,45 @@ The sign up page provides a form for users to sign up for an information pack an
 # Design
 
 ## Imagery
-The learning process is enhances where imagery is used to describe the various stages in a process and this is utilised in Let’s Make Brownies by introducing photos of the ingredients and the photos of the various stages in the brownie making process.
+
+The learning process is enhanced where imagery is used to describe the various stages in a process and this is utilised in Let’s Make Brownies by introducing photos of the ingredients and the photos of the various stages in the brownie making process.
   
 Photos of the different baking projects are presented in the gallery page to encourage interested bakers to develop their skills by trying more advanced baking projects.
 
-# Typography
+## Typography
+
 Two fonts are used throughout the site : Roboto, used for body of site and ‘Playfair Display’, used for headings. 
 
 - Roboto![Roboto](./assets/readme/font-roboto-400.jpg) 
 
 - Playfair Display![Playfair Display](./assets/readme/font-play-fair-400.jpg)
 
-# Colour Scheme
+## Colour Scheme
+
 Research into colours that would look well with brownie pictures resulted in these three main colours which are used throughout the site. 
 ![colour pallet](./assets/readme/three-colours.jpg)
 
-# Wireframes
+## Wireframes
 
-# Home page 
+### Home page 
 ![Home page wireframe](./assets/readme/Lets%20Make%20Brownies%20-%20Home.png)
 
-# Gallery page
+### Gallery page
 ![gallery wireframe](./assets/readme/Lets%20make%20brownies%20-%20gallery.png)
 
-# Sign up page
+### Sign up page
 ![sign up wireframe](./assets/readme/lets%20make%20brownies%20-%20sign%20up.png)
 
 # Technologies used
 
-# Languages
+## Languages
 - HTML5
     - HTML5 was used as the main language to complete the structure of the Website.
 
 - CSS
     - Custom written CSS is used to style the website and define the responsive elements of the site.
 
-# Tools
+## Tools
 - [Visual Studio Code](https://code.visualstudio.com/)
     - VSCode was used as the preferred IDE.
 
@@ -131,7 +134,7 @@ Research into colours that would look well with brownie pictures resulted in the
     - Balsamiq wireframe was used for wireframe layout design.
 
 
-# Libraries
+## Libraries
 - Google Fonts 
     - "Roboto" and "Playfair Display" google fonts is used to import the fonts into the style.css file. These fonts were used throughout the project.
 
@@ -151,11 +154,11 @@ Internal links were tested to ensure that they navigated to the appropriate posi
 
 
 
-# Validator Test
+## Validator Test
 All Pages were run through the W3C HTML Validator and showed no errors.
 CSS Stylesheet was run through the W3C CSS Validator and showed no errors.
 
-# Lighthouse 
+## Lighthouse 
 
 Lighthouse scores quality in five categories: performance, accessibility, best practices, SEO, and qualification as a Progressive Web Application. 
 
@@ -184,18 +187,52 @@ Lighthouse analysis was performed on the three pages of the website, on an incog
 
     - Desktop
     ![Desktop-sign_up](./assets/readme/lighthouse-sign_up-desktop.jpg)
-    
 
 
-![lighthouse screenshot](./assets/readme/lighthouse-screenshot.jpg)
 
-# Resolutions to issues found during testing
 
+# Issues and bugs
+
+- Initial coding with display block resulted in elements not aligning as expected and was resolved by using display flex instead. 
 - Spelling mistakes and ommissions were found when proof reading, were then corrected.
 - Hero image zoomed in so that only a portion of the image could be seen. Issue resolved by sizing the image and saving the re-sized image.
 - Navigation menu items were being overlapped on smaller screens. Resolved by adding a media query for small screens that changes display from row to column.
 - Content was stretched across the entire width of the screen. Resolved by introducing container that had max width of 1100 px.
-- 
+
+# Deployment
+
+GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub and publishes a cloud bases website that is publicly accessible.
+
+The steps to deploy were as follows: 
+
+  - In the GitHub repository, navigated to the Settings tab 
+  - From the source section drop-down menu, selected the 'Main Branch'
+  - Once the main branch has been selected, after a few moments, the page was automatically deployed. 
+
+
 # Credits
 
-# References
+A special thanks to my mentor Rownan McClelland who offered me guidance at each stage of the project.
+
+## Code
+
+- Code institute’s “Love Running Walkthrough Project”.
+
+- W3schools.com: code references.
+
+- css-tricks.com: css animation.
+
+- kevinpowel.co: css references.
+
+- codesandbox.io: overlay styling
+
+- 
+
+## Imges
+
+- istockphoto.com
+
+
+
+
+
