@@ -7,6 +7,7 @@ The live website can be found [HERE](https://dooco.github.io/brownies/)
 This website forms part assignment for the Code Institute’s Full Stack Developer course - personal portfolio one. Using principles of user experience design, accessibility and responsivity this website was developed with html and css.
 The website presents a simple step by step method for beginner baking enthusiasts to follow in their journey in learning how to bake. 
 
+
 ![Responsive screenshot](./assets/readme/am-i-responsive-lets-make-brownies.jpg)
 
 
@@ -29,6 +30,7 @@ The website presents a simple step by step method for beginner baking enthusiast
 
 1. As a regular visitor I want to be able to sign up for the newsletter for further updates on new baking recipes. I need inspiration for new baking ideas to expand my baking skills.
 2. I want to access community links and other resources to complement my interest in baking.
+---
 
 # Structure
 
@@ -69,6 +71,7 @@ The sign up page provides a form for users to sign up for an information pack an
 
 ![SignUp page](./assets/readme/sign%20up.jpg)
 
+---
 
 # Design
 
@@ -101,6 +104,8 @@ Research into colours that would look well with brownie pictures resulted in the
 
 ### Sign up page
 ![sign up wireframe](./assets/readme/lets%20make%20brownies%20-%20sign%20up.png)
+
+---
 
 # Technologies used
 
@@ -138,10 +143,12 @@ Research into colours that would look well with brownie pictures resulted in the
 - Google Fonts 
     - "Roboto" and "Playfair Display" google fonts is used to import the fonts into the style.css file. These fonts were used throughout the project.
 
-
+---
 
 # Limitations 
 - Due to the site being a static site (html & css), there are limitations to the scope of the website and its function can only be a descriptive site. Further investigaion, with expanded technologies, could expand the function of the website with more interaction with the user. 
+
+---
 
 # Testing
 A process of continuous testing was carried out throughout the development of the website with display or functionality improvements made as they were warranted. Testing consisted of observing the site’s visible responses to different view screens and on different browsers.
@@ -151,6 +158,8 @@ Google Chrome Developer tools and Firefox Developer edition were used to test si
 Media queries are incorporated to ensure the site displays properly at break points between different device screen sizes. Over-lapping issues were detected on the navigation area when viewed on smaller screen size. The issue was resolved by introducing flex display in the navigation.
 
 Internal links were tested to ensure that they navigated to the appropriate position on the site. External links were tested to ensure that a new page was opened whenever an external link was selected and that it was directed correctly.
+
+The various user (first, repeat and frequent) experiences were noted in the process of testing elements of the website.
 
 
 
@@ -189,7 +198,7 @@ Lighthouse analysis was performed on the three pages of the website, on an incog
     ![Desktop-sign_up](./assets/readme/lighthouse-sign_up-desktop.jpg)
 
 
-
+---
 
 # Issues and bugs
 
@@ -198,6 +207,11 @@ Lighthouse analysis was performed on the three pages of the website, on an incog
 - Hero image zoomed in so that only a portion of the image could be seen. Issue resolved by sizing the image and saving the re-sized image.
 - Navigation menu items were being overlapped on smaller screens. Resolved by adding a media query for small screens that changes display from row to column.
 - Content was stretched across the entire width of the screen. Resolved by introducing container that had max width of 1100 px.
+- To achieve a contrasting flip-card effect in the main section of the home page each section’s layout ( image first followed by text / next section text first followed by image) caused an issue on mobile display. This issue could be resolved by aligning sections in same order for small screen displays and using flex reverse on columns for large screen displays. 
+- Download time to display background image on sign up page is marginally long and could be addressed by further compressing image.
+
+
+---
 
 # Deployment
 
@@ -209,10 +223,12 @@ The steps to deploy were as follows:
   - From the source section drop-down menu, selected the 'Main Branch'
   - Once the main branch has been selected, after a few moments, the page was automatically deployed. 
 
+---
 
 # Credits
 
 A special thanks to my mentor Rownan McClelland who offered me guidance at each stage of the project.
+A very special thanks to my wife Clodagh, for all her support, images of baking, and understanding of the time needed to undertake this project.
 
 ## Code
 

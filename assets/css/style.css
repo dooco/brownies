@@ -39,6 +39,7 @@ header {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin: 0 0 .75em;
 }
 .nav_item {
     margin-top: .75em;
